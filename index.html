@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microverse Project</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1 id="title">Microverse Project</h1>
@@ -27,16 +27,24 @@
                 <option value="Js">Java Script</option>
                 <option value="C#">HTML</option>
                 <option value="php">CSS</option>
-        </select>
-        <label id="experience-label"><b>Experience:</b></label><br>
-            <input type="radio" name="experience-three" value="experience-three" checked> Full-time job holder.(Employed)<br>
-            <input type="radio" name="experience-two" value="experience-two"> Part-time job holder.(Freelancer)<br>
-            <input type="radio" name="experience-one" value="experience-one"> Looking for a job.(Applier)<br>g
-            
-            <label id="os-label"><b>Latest technology experience:</b></label><br>
-            <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
+        </select><br>
+        <div>
+            <label id="experience-label"><b>Experience:</b></label><br>
+            <input type="radio" name="experience" value="experience-one" checked>We create 9+ basic project using javascript<br>
+            <input type="radio" name="experience" value="experience-two">We practice Code from HackerRank and freecodecamp<br>
+          
+        </div>
+        
+        <div>
+            <label id="technology-label"><b>Technology experience:</b></label><br>
+            <input type="checkbox" name="tech1" value="php">PHP<br>
             <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
-            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
-    </form>
+            <input type="checkbox" name="tech3" value="machine">Machine Learning Algorithm <br>
+  
+        </div>
+
+            <textarea class="form" placeholder="We are developer"></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+        </form>
 </body>
 </html>
